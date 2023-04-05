@@ -1,0 +1,28 @@
+{
+  "name": "demo_project",
+  "version": "1.0.0",
+  "description": "demo dashium",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dashium/demo_project.git"
+  },
+  "keywords": [
+    "demo",
+    "dashium",
+    "tai",
+    "studio"
+  ],
+  "author": "Tai Tetsuyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dashium/demo_project/issues"
+  },
+  "homepage": "https://github.com/Dashium/demo_project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
