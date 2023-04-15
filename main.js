@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 app.get('/', function (req, res) {
     res.send(`
@@ -11,7 +12,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/favicon.ico', (req, res) => {
-    res.sendFile('/favicon.ico');
+    res.sendFile(path.join(__dirname, './favicon.ico'));
 });
 
 app.listen(3000, function () {
