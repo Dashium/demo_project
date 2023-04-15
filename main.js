@@ -1,8 +1,13 @@
 const express = require('express');
 const app = express();
 
-app.get('/', function(req, res) {
-  res.send('Hello World! from Dashium');
+app.get('/', function (req, res) {
+    res.send(`
+        <h2>Hello World! from Dashium.</h2>
+        <ul>
+            <li>ENV: ${process.env.dashiumENV}</li>
+        </ul>
+    `);
 });
 
 app.get('/favicon.ico', (req, res) => {
