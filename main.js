@@ -4,6 +4,7 @@ const path = require('path');
 
 app.get('/', function (req, res) {
     res.send(`
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <h2>Hello World! from Dashium.</h2>
         <ul>
             <li>ENV: ${process.env.dashiumENV}</li>
